@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPI-Mart - Bootstrap Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="imgs/logo1.png" alt="RPI-Mart Logo" width="70" height="70" class="d-inline-block align-text-top me-2">
+        <span class="brand-name">RPI-Mart</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+
+            <a class="nav-link" id="marketLink" href="../ListingPage/"><i class="fas fa-home me-1"></i>Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="loginLink" href="../signup/index.html?mode=login"><i
+                class="fas fa-sign-in-alt me-1"></i>Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="registerLink" href="../signup/index.html?mode=register"><i
+                class="fas fa-user-plus me-1"></i>Register</a>
+
+
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contactLink" href="../contact/"><i class="fas fa-envelope me-1"></i>Contact</a>
+          </li>
+        </ul>
+        <div class="navbar-nav ms-auto">
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-user-circle me-2"></i><span id="userFullName"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+
+              <li><a class="dropdown-item" href="../account"><i class="fas fa-user me-2"></i>Profile</a></li>
+
+              <li><a class="dropdown-item" href="../account/myListings.html"><i class="fas fa-clipboard-list me-2"></i>My Listings</a></li>
+
+              <li><a class="dropdown-item" href="../Listing/form.html"><i class="fas fa-list me-2"></i>New Listing</a></li>
+
+              <li><a class="dropdown-item" href="../account/liked.html"><i class="fas fa-heart me-2"></i>My Likes</a></li>
+
+
+
+              <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Settings</a></li>
+
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../account/logout.php" id="logoutButton"><i
+                    class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

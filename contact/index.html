@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="./contact.css">
+  <script src="contact.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script src="navbar.js"></script>
+</head>
+
+<body>
+
+  <div id="navbar-placeholder"></div>
+
+  <!--If the user is logged in, show info.
+      Else, show a page to create an account.
+      Creation on the js file.-->
+  <div class="maincontainer">
+    <h1>Contact Us</h1>
+    <form id="listingForm" action="contact.php" method="POST" enctype="multipart/form-data" onsubmit="validateForm();">
+      <label for="subject">Subject</label><br>
+      <input type="text" id="subject" name="subject" size="45" maxlength="60" placeholder="Enter The Support Subject"
+        required><br><br>
+
+      <label for="content">How Can We Help You?</label><br>
+      <textarea rows="6" cols="51" maxlength="2000" name="content" id="content"
+        placeholder="Please describe what you need help with" required></textarea>
+
+      <div>
+        <input type="submit" value="Submit" class="submitbutton">
+      </div>
+    </form>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+
+</html>

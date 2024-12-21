@@ -1,0 +1,161 @@
+WEBVTT
+
+1 "Lee, Isaac" (1706536704)
+00:00:00.000 --> 00:00:21.030
+Alright, so I'm recording now. I guess I can start with what I've done, which is I've finished making, my SQL tables to store user information and their history, and I've made a PHP webpage that can.
+
+2 "Lee, Isaac" (1706536704)
+00:00:21.030 --> 00:00:37.457
+Read that data and display it. So now I'm in the process of taking the work I've done building websites, reading Json and like those HTML elements and just carrying them over to that webpage in order to display it using mysql.
+
+3 "Ashrita" (2048335616)
+00:00:37.457 --> 00:00:44.618
+Okay, that's cool. And do you know if, like, we'll be able to open those P.
+
+4 "Lee, Isaac" (1706536704)
+00:00:44.618 --> 00:01:11.377
+HP tables or NO? You will. I should just like post the, information on how to log into phpm admin. It's literally just username. Yeah, I'll type it in now, but the username is phpm admin, the password is PHPM admin. Probably sometime in the future we'll need to change that.
+
+5 "Ashrita" (2048335616)
+00:01:11.377 --> 00:01:17.680
+But I figured I'd just keep it simple for now. Yeah, that's good. And is this for like the users to sign?
+
+6 "Lee, Isaac" (1706536704)
+00:01:17.680 --> 00:01:30.833
+Then or this is for like the listings part of it. This is for the users, but because it's just one PHP man thing and figured there'll be like a user database and a listings database and it'll go.
+
+7 "Ashrita" (2048335616)
+00:01:30.833 --> 00:01:45.218
+With use the same like yeah ok yeah so when we want another one, we can just add a new database and tables in there. Okay. Yeah. Okay.
+
+8 "Lee, Isaac" (1706536704)
+00:01:45.218 --> 00:01:49.487
+Is that it? That's it for me.
+
+9 "Mall, Nayib Roshan" (891369216)
+00:01:49.487 --> 00:02:04.951
+Anything else? Okay, I guess, yeah, I just finished homepage, I've gotta copy and paste the bootstrap now then it's all I did so far. I haven't done that too much So yeah.
+
+10 "Lee, Isaac" (1706536704)
+00:02:04.951 --> 00:02:08.905
+Oh. All right.
+
+11 "Mall, Nayib Roshan" (891369216)
+00:02:08.905 --> 00:02:11.052
+Okay.
+
+12 "Ashrita" (2048335616)
+00:02:11.052 --> 00:02:26.100
+So what do I do next, I think. I also added a logo to the nas bar, so if I think I, I requested you guys to merge the pull requests so if you do that, you should be able to see it.
+
+13 "Ashrita" (2048335616)
+00:02:26.100 --> 00:02:46.100
+And then I also created a listings form, so, I didn't like UCSS or anything. I just created like the basic template of the form, so the users can add their name, their email, and the information about the item, which is just the, the name, the price and the description, and then there's like a select an image button so they can.
+
+14 "Ashrita" (2048335616)
+00:02:46.100 --> 00:03:03.880
+Can choose a file from their computer to select an image that they wanna upload, and then they can submit that. And right now it's just once you submit it, it's just displaying it to the HTML, but I think once I log into the PHP I'll create a database. So when you click submit, it'll add it to.
+
+15 "Lee, Isaac" (1706536704)
+00:03:03.880 --> 00:03:25.946
+A PHP database, but I'll do that before next meeting. Alright, and I think we might need to have maybe an in person meeting so that we can coordinate our usage of the databases unless people just feel like it's not a big deal to just.
+
+16 "Ashrita" (2048335616)
+00:03:25.946 --> 00:03:34.998
+Use their own projects for everything. Yeah, I think we should have at least one, like, kind of soon just so we can sort everything out cause I feel like we get more.
+
+17 "Lee, Isaac" (1706536704)
+00:03:34.998 --> 00:03:36.375
+Our work done when we're like working.
+
+18 "Mall, Nayib Roshan" (891369216)
+00:03:36.375 --> 00:03:40.575
+Putting together in person. Yeah. Yeah.
+
+19 "Lee, Isaac" (1706536704)
+00:03:40.575 --> 00:03:44.512
+Yeah finally just start.
+
+20 "Ashrita" (2048335616)
+00:03:44.512 --> 00:03:49.498
+Start making that presentation thanks soon as well. Yeah, right now in our.
+
+21 "Lee, Isaac" (1706536704)
+00:03:49.498 --> 00:03:53.271
+Like for the final presentation? For the.
+
+22 "Mall, Nayib Roshan" (891369216)
+00:03:53.271 --> 00:03:56.477
+By like 25 October one. Oh.
+
+23 "Mall, Nayib Roshan" (891369216)
+00:03:58.770 --> 00:04:03.956
+Yeah, we need slides and everything for that too. It's not gonna take too long, I feel like so.
+
+24 "Lee, Isaac" (1706536704)
+00:04:03.956 --> 00:04:09.636
+Yeah, you're right. Yeah try not. Yeah, the more important thing is to finish our website, but we should.
+
+25 "Ashrita" (2048335616)
+00:04:09.636 --> 00:04:19.830
+Make something. Yeah, I think once like we finish the PHP stuff in the next like week or so, like that'll be like the main.
+
+26 "Ashrita" (2048335616)
+00:04:19.830 --> 00:04:35.609
+That'll be like a lot of the project mostly. Right. Okay.
+
+27 "Ashrita" (2048335616)
+00:04:35.609 --> 00:04:40.168
+Do we know what Quinn said he was gonna work on this week?
+
+28 "Lee, Isaac" (1706536704)
+00:04:40.168 --> 00:04:46.494
+Okay, I'm not sure. I'm assuming more stuff on the listing page.
+
+29 "Ashrita" (2048335616)
+00:04:46.494 --> 00:05:05.927
+Yeah. Yeah. And then sort of said that he's still creating the sign up and login page. Okay, yeah, that's also a pretty big feature, so that's good.
+
+30 "Lee, Isaac" (1706536704)
+00:05:05.927 --> 00:05:09.289
+Okay.
+
+31 "Ashrita" (2048335616)
+00:05:09.289 --> 00:05:10.311
+Yeah, that's another thing I probably.
+
+32 "Lee, Isaac" (1706536704)
+00:05:10.311 --> 00:05:14.472
+Need to coordinate with him a little bit because I have I just made that user.
+
+33 "Ashrita" (2048335616)
+00:05:14.472 --> 00:05:19.811
+Database that he probably has to plug into. Yeah, maybe just send him a message in the chat.
+
+34 "Lee, Isaac" (1706536704)
+00:05:19.811 --> 00:05:32.446
+Do so he knows. Good point, yeah. Yeah.
+
+35 "Ashrita" (2048335616)
+00:05:32.446 --> 00:05:33.796
+Okay.
+
+36 "Mall, Nayib Roshan" (891369216)
+00:05:33.796 --> 00:05:38.300
+That all? I think so.
+
+37 "Lee, Isaac" (1706536704)
+00:05:38.300 --> 00:05:51.085
+Okay, and hopefully we can get some more people in future meetings, but. Yeah, this is.
+
+38 "Ashrita" (2048335616)
+00:05:51.085 --> 00:05:56.083
+Time for now. See you guys later. Okay, send me the transcript again.
+
+39 "Lee, Isaac" (1706536704)
+00:05:56.083 --> 00:06:10.499
+Okay, yeah, i'll try to do it before like 01:00 this time. Yeah, NO, that's fine. Okay, I hope that you did it the next day. Yeah, I was awake anyway.
+
+40 "Lee, Isaac" (1706536704)
+00:06:10.499 --> 00:06:18.720
+Okay. All right. Bye guys. Yeah, see you.

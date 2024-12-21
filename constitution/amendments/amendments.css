@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 115px 0 0 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #000;
+  text-decoration: none;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding-top: 1rem;
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+  background-color: rgba(15, 15, 15, 0.8);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-logo a {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  font-family: "Great Vibes", cursive;
+}
+
+.navbar-links a:hover {
+  color: #8b0000;
+}
+
+.website-navbar-font {
+  font-family: "Great Vibes", cursive;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.white-box {
+  background-color: rgba(255, 255, 255, 1);
+  width: 2000px;
+  height: 75vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.white-box-right {
+  background-color: rgba(255, 255, 255, 1);
+  width: 2000px;
+  height: 75vh;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  overflow: auto;
+}
+
+.amendment-button {
+  width: 80%;
+  margin: 7px 0;
+  padding: 7px;
+  background-color: #f0f0f0;
+  border: 2px solid #000435;
+  font-size: 1rem;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.amendment-button:hover {
+  background-color: #000435;
+  color: #fff;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Listing Form</title>
+    <link rel="stylesheet" href="CSS/form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="form">
+        <div class="formh">
+            <h2>Edit A Listing</h2>
+        </div>
+
+    
+        <form id="listingForm" action="submit_listing.php" method="POST" enctype="multipart/form-data">
+            <label for="title">Item Name:</label><br>
+            <input type="text" id="title" name="title" placeholder="Enter New Item Name" required><br>
+
+            <label for="price">Price:</label><br>
+            <input type="text" id="price" name="price" placeholder="Enter Price" required><br>
+
+            <label for="description">Description:</label><br>
+            <input type="text" id="description" name="description" placeholder="Enter description" required><br><br>
+
+            <label for="tagSelect">Select Tags:</label>
+            <div id="tagContainer" class="mb-3">
+                <div id="selectedTags" class="mb-2"></div>
+                <select id="tagSelect" class="tag-select">
+                    <option value="" disabled selected>Choose tags...</option>
+                </select>
+            </div>
+            
+            <label for="locationSelect">Select Meeting Location:</label>
+            <select id="locationSelect" class="tag-select">
+                <option value="" disabled selected>Choose location...</option>
+            </select>
+
+            <label for="image">Select image:</label>
+            <input type="file" id="image" name="image" accept="image/png, image/jpeg" required><br><br>
+
+            <img id="imagePreview" src="#" alt="Image preview" style="display:none; width: 100px; height: 100px;"><br><br>
+
+            <input type="submit" value="Submit" class="submitbutton">
+        </form>
+    </div>
+  
+
+    <script src="JS/editform.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
